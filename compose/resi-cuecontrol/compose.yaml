@@ -3,6 +3,7 @@ services:
     image: "ghcr.io/pcs3rd/resi_cuecontrol:sha-404a49e"
     ports:
      - "9000:9000"
+     - "9001:9001"
     environment:
      - RESI_USERNAME
      - RESI_PASSWORD
