@@ -9,4 +9,4 @@ services:
      - RESI_PASSWORD
      - CUE_OFFSET_SECONDS
      - DECODER_BUFFER_SEGMENTS
-     
+    restart: unless-stopped
