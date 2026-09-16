@@ -1,0 +1,9 @@
+
+name: resi_cuecontrol
+repository_url: https://github.com/Victory-Family-Church/doco-deploy
+reference: prod
+working_dir: compose/resi-cuecontrol
+compose_files:
+  - compose.yaml
+env_files:
+  - remote:env.enc
