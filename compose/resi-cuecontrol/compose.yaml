@@ -1,6 +1,6 @@
 services:
   resi_cuecontrol:
-    image: "ghcr.io/pcs3rd/resi_cuecontrol:sha-404a49e"
+    image: "ghcr.io/pcs3rd/resi_cuecontrol:sha-df28462"
     ports:
      - "9000:9000/udp"
      - "9001:9001/udp"
