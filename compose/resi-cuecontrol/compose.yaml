@@ -10,4 +10,5 @@ services:
      - RESI_PASSWORD
      - CUE_OFFSET_SECONDS
      - DECODER_BUFFER_SEGMENTS
+     - HTTP_API_KEY
     restart: unless-stopped
